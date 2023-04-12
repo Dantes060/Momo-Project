@@ -10,7 +10,7 @@ int main() {
 	
 	// Authenticate user
 	while (!authenticated && attempts < 3) {
-		cout << "Enter your PIN:\n";
+		cout << "Enter your Momo PIN:\n";
 		cin >> input_pin;
 		
 		if (input_pin == pin) {
@@ -48,7 +48,7 @@ int main() {
 				cout << "Enter PIN to check balance:\n";
 				cin >> input_pin;
 				if (input_pin == pin) {
-					cout << "Your balance is " << balance << endl;
+					cout << "Your balance is Ghc " << balance << endl;
 				}
 				else {
 					cout << "Wrong PIN.\n";
@@ -70,7 +70,7 @@ int main() {
 					else {
 						balance -= amount;
 						cout << amount << " sent to " << number << endl;
-						cout << "Your new balance is " << balance << endl;
+						cout << "Your new balance is Ghc " << balance << endl;
 					}
 				}
 				else {
